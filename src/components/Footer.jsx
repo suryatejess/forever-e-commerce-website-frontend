@@ -8,10 +8,9 @@ const Footer = () => {
         <div>
           <img src={assets.logo} alt="assets logo" className="mb-5 w-32" />
           <p className="w-full md:w-2/3 text-gray-600">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
-            libero exercitationem veritatis harum cupiditate vero numquam facere
-            veniam? Hic itaque optio nostrum officia vero rerum dicta beatae sed
-            inventore? Doloribus?
+            This is not a real working website. This is a project created by me
+            to showcase my skills in web development. Please do not use any real
+            information while using this website.
           </p>
         </div>
 
@@ -37,7 +36,7 @@ const Footer = () => {
       <div>
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright 2024 @forever.com - All Rights Reserved
+          Copyright 2024 @Surya Tejess - All Rights Reserved
         </p>
       </div>
     </div>

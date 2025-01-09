@@ -17,10 +17,7 @@ const BestSeller = () => {
       <div className="text-center text-3xl py-8">
         <Title text1={"BEST"} text2={"SELLER"} />
         <p className="w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum esse
-          eligendi quam perspiciatis. Ratione aut odio provident error atque,
-          animi officia officiis nam omnis iusto magni tenetur in vitae
-          delectus?
+          Checkout some of our Best Seller Products
         </p>
       </div>
 
