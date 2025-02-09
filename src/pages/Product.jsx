@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { useContext, useState, useEffect } from "react";
 import { ShopContext } from "../context/shopContext";
 import { assets } from "../assets/assets";
+import RelatedProducts from "../components/RelatedProducts";
 
 const Product = () => {
   const { productId } = useParams();
@@ -92,6 +93,24 @@ const Product = () => {
           </div>
         </div>
       </div>
+
+      {/* --------------- Description & Review Section --------------- */}
+      <div className="mt-20">
+        <div className="flex">
+          <b className="border px-5 py-3 text-sm">Description</b>
+          <p className="border px-5 py-3 text-sm">Reviews (122)</p>
+        </div>
+        <div className="flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500">
+          <p>this is just a sample text</p>
+          <p>this is sample2 text</p>
+        </div>
+      </div>
+
+      {/* ---------- display related products ---------- */}
+      <RelatedProducts
+        category={productData.category}
+        subCategory={productData.subCategory}
+      />
     </div>
   ) : (
     <div className="opacity-0"></div>
